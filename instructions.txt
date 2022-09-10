@@ -1,0 +1,28 @@
+The purpose of this repository is that you learn:
+ tkinter
+ basics of SQL
+
+After everything:
+Everyday when you start a new study session you need to create a new branch based on the main branch of this repo, example
+you are on main branch, so from here you need to create a branch with this structure:
+    main-date-user
+    main-10/09/2022-JJRR5
+    (use your user name from github)
+always that you start a new day you need to create a new branch where you are going to upload your changes.
+Everyday you need tu create a pull request with your changes.
+
+
+The way that we are going to be working with this repo is the follow:
+
+ ////////TKINTER///////////
+ First you need to create a folder called TKINTER which is going to contain everything related to tkinter.
+ for tkinter you need to watch this videos from video 42 to 54.
+ https://www.youtube.com/watch?v=hTUJC8HsC2I&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS&index=42.
+ for each video you need to create a new file with the exercises that you watch in the video.
+
+
+ /////////SQL///////////
+ First you need to create a folder called SQL which is going to contain everything related to sql.
+ you need to watch this course, only the first hour: https://www.youtube.com/watch?v=uUdKAYl-F7g&t=614s.
+you need to create the same files and the same exercises as the instructor of the course("Hola mundo").
+ 
