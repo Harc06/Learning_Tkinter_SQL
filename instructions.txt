@@ -2,6 +2,7 @@ The purpose of this repository is that you learn:
  tkinter
  basics of SQL
 
+///////////BRANCHES//////////////////////
 After everything:
 Everyday when you start a new study session you need to create a new branch based on the main branch of this repo, example
 you are on main branch, so from here you need to create a branch with this structure:
@@ -11,6 +12,16 @@ you are on main branch, so from here you need to create a branch with this struc
 always that you start a new day you need to create a new branch where you are going to upload your changes.
 Everyday you need tu create a pull request with your changes.
 
+//////////////PULL REQUEST (PR)////////////////////////
+Everyday you need to cerate a PR after your commits
+The structure of a PR is the following:
+
+1.- Title
+2.- Goal
+3.- What change
+4.- Evidence
+
+I let you an example of how your PR needs to be created
 
 The way that we are going to be working with this repo is the follow:
 
