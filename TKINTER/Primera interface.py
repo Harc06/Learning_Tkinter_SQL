@@ -2,42 +2,41 @@ from tkinter import *
 
 raiz = Tk()
 
-#Titulo de la ventana
-raiz.title('Ventana de pruebas')
+#window title
+raiz.title('Window test')
 
-#Modificar tamano de la ventana
+#Modify window size
 raiz.resizable(1,1)
 
-#agregar icono para la ventana(extension.ico)
-raiz.iconbitmap('C:\Users\harc6\Visual Studio Code\Tkinter y Sql\Learning_Tkinter_SQL\coding.ico')
+#add window icon (extension.ico)
+raiz.iconbitmap('coding.ico')
 
-#Cambiar tamano de la ventana
+#change window size
 raiz.geometry('650x350')
 
-#Cambiar color de fondo
+#Change bg color
 raiz.config(bg = 'blue')
 
-#Crear un frame
-miFrame = Frame()
+#Create a frame
+myFrame = Frame()
 
-#Para empaquetarlo dentro de la raiz
-miFrame.pack()
+#To pack it inside the root
+myFrame.pack()
 
-#Dar color de fondo a frame
-miFrame.config(bg='Red')
+#Give background color to frame
+myFrame.config(bg='Red')
 
-#Cambiar tamano del frame, wid-ancho height-alto
-miFrame.config(wid='650', height='350')
+#Change frame size, width height
+myFrame.config(wid='650', height='350')
 
-#Cambiar tamano del borde
-miFrame.config(bd='35')
+#Change border size
+myFrame.config(bd='35')
 
-#Agregar borde al frame
-miFrame.config(relief= 'sunken')
+#add border to frame
+myFrame.config(relief= 'sunken')
 
+#Change the cursor when positioned in the frame
+myFrame.config(cursor= 'hand2')
 
-#Cambiar el cursor al posicionarse en el frame
-miFrame.config(cursor= 'hand2')
-
-#Main loop siempre debe estar al final del codigo
+#Main loop must always be at the end of the code
 raiz.mainloop()
