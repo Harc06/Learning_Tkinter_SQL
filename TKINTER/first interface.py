@@ -1,4 +1,5 @@
 from tkinter import *
+import path
 
 raiz = Tk()
 
@@ -8,14 +9,15 @@ raiz.title('Window test')
 #Modify window size
 raiz.resizable(1,1)
 
+icon = r'c:/Users/harc6/Visual Studio Code/Tkinter and sql/Learning_Tkinter_SQL/TKINTER/coding.ico'
 #add window icon (extension.ico)
-raiz.iconbitmap('coding.ico')
+raiz.iconbitmap(icon)
 
 #change window size
 raiz.geometry('650x350')
 
 #Change bg color
-raiz.config(bg = 'blue')
+raiz.config(bg = 'blue') 
 
 #Create a frame
 myFrame = Frame()
