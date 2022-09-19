@@ -1,23 +1,23 @@
 from tkinter import *
-import path
 
-raiz = Tk()
+
+root = Tk()
 
 #window title
-raiz.title('Window test')
+root.title('Window test')
 
 #Modify window size
-raiz.resizable(1,1)
+root.resizable(1,1)
 
 icon = r'c:/Users/harc6/Visual Studio Code/Tkinter and sql/Learning_Tkinter_SQL/TKINTER/coding.ico'
 #add window icon (extension.ico)
-raiz.iconbitmap(icon)
+root.iconbitmap(icon)
 
 #change window size
-raiz.geometry('650x350')
+root.geometry('650x350')
 
 #Change bg color
-raiz.config(bg = 'blue') 
+root.config(bg = 'blue') 
 
 #Create a frame
 myFrame = Frame()
@@ -41,4 +41,4 @@ myFrame.config(relief= 'sunken')
 myFrame.config(cursor= 'hand2')
 
 #Main loop must always be at the end of the code
-raiz.mainloop()
+root.mainloop()

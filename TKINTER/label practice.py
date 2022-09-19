@@ -1,6 +1,5 @@
-
 from tkinter import *
-import path
+
 
 root = Tk()
 
@@ -8,12 +7,12 @@ myFrame = Frame(root, width=500, height=400)
 
 myFrame.pack()  
 
-image = r'c:/Users/harc6/Visual Studio Code/Tkinter and sql/Learning_Tkinter_SQL/TKINTER/pika.gif'
+image = r'c:/Users/harc6/Visual Studio Code/Tkinter and sql/Learning_Tkinter_SQL/TKINTER/img/pika.gif'
 
 myimage=PhotoImage(file=image)
 
 # to place the label where we want
-mylabel= Label(myFrame,  image =myimage, text="Hello python", fg='Red', font=("Comic Sans MS", 18)).grid(row= 1, column=2)
+mylabel= Label(myFrame,  image =myimage, text="Hello python", fg='Red', font=("Comic Sans MS", 18)).grid(row= 2, column=2)
 
 textBoxName = Entry(myFrame)
 # grid for create row and columns
